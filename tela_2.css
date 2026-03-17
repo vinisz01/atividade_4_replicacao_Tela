@@ -3,30 +3,86 @@
     padding: 0;
     box-sizing:  border-box;
 }
-
-body{
-    background: #ffffff;
-    color: white;
+.titulo{
+    color: rgb(59, 59, 59);
+    background: rgb(216, 216, 216);
+    padding: 6px;
 }
-
-.fundo{
-    width: 660px;
-    margin-top: 180px;
-    
-    background: #ffffff;
-    justify-content: center;
+.barraamarela {
+    background: rgb(255, 217, 0);
+    padding: 11px;
+}
+.botoesheader{
+    padding: 5px;
+    background: rgb(216, 216, 216);
+    color: rgb(22, 22, 22);
+    gap: 8px;
 }
 .flex{
     display: flex;
-    margin-left: 550px;
 }
-.cinza{
-    background: #cae0ec;
-    padding: 90px;
-    padding-left: 150px;
-    margin: 10px;
-    border-radius: 10px;
+button{
+    padding: 5px;
+    cursor: pointer;
 }
-.alongar{
-    padding-left: 400px;
+.divisao{
+    display: flex;
+
+}
+.bloco1{
+    display: block;
+    height: 900px;
+    width: 400px;
+    
+}
+.titulob1{
+    background: white;
+    display: flex;
+    padding: 8px;
+    padding-left: 12px;
+    gap: 80px;
+    align-items: center;
+    border-bottom: 3px solid rgb(98, 185, 255);
+    border-right: rgb(216, 216, 216);
+}
+th {
+  background-color: #ddd;
+  text-align: left;
+  padding: 12px;
+  padding: 15px;
+  border-bottom: 2px solid #999;
+  font-weight: normal;
+  border-top: 1px solid #000000;   
+}
+
+table {
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse;
+  font-size: 13px;
+  border-left: 1px solid #000000;
+}
+
+td {
+  padding: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+tr:hover {
+  background-color: #e0f9ff;
+  cursor: pointer;
+}
+
+th, td {
+  padding: 5px 20px;
+  text-align: left;
+  border-bottom: 1px solid #000000;  
+  border-right: 1px solid #000000;  
+}
+
+.botoesheader2{
+    padding: 10px;
+    background: rgb(216, 216, 216);
+    color: rgb(22, 22, 22);
+    gap: 28px;
 }
