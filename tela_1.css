@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+body{
+    background: #282828;
+    color: white;
+}
+
+.fundo{
+    width: auto;
+    margin: 0 auto;
+    background: white;
+}
+.flex{
+    display: flex;
+}
+
+.n1{
+    height: 112px;
+    width: 1950px;
+    margin: 0px;
+    border: 2px solid black;
+}
+.n2{
+    height: 817px;
+    width: 450px;
+    margin: 0px;
+    border: 2px solid black;
+}
+.n3{
+    height: 416px;
+    width: 1466px;
+    margin: 0px;
+    border: 2px solid black;
+}
+.n4{
+    height: 416px;
+    width: 1500px;
+    margin: 0px;
+    border: 2px solid black;
+    color: black;
+}

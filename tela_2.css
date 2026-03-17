@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+body{
+    background: #ffffff;
+    color: white;
+}
+
+.fundo{
+    width: 660px;
+    margin-top: 180px;
+    
+    background: #ffffff;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    margin-left: 550px;
+}
+.cinza{
+    background: #cae0ec;
+    padding: 90px;
+    padding-left: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.alongar{
+    padding-left: 400px;
+}
