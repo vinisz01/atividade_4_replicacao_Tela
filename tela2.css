@@ -1,0 +1,77 @@
+section {
+    display: flex;
+}
+
+.esquerda {
+    width: 59%;
+    margin: 1%;
+    background-color: #d4eaff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.direita {
+    width: 39%;
+    margin: 1%;
+    background-color: #d4eaff;
+}
+
+#logo-robo {
+    width: 15%;
+}
+
+#logo-robo img {
+    width: 100%;
+    background-color: #d4eaff;
+}
+
+.button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-family: Arial;
+  cursor: pointer;
+
+}
+.botao{
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+
+}
+
+.bola {
+  background-color: white;
+  color: #2f5bd3;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.container {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 290px;
+  margin-top: 20px;
+  gap: 10px;
+}
